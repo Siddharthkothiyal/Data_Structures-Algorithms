@@ -1,7 +1,6 @@
 package BinarySearch.BS_On_Answers;
-
 public class kokoEatingBananas {
-
+ 
     public static int totalHrs(int[] piles, int hourly) {
         int totHrs = 0;
         for (int i = 0; i < piles.length; i++) {
