@@ -57,6 +57,8 @@ public class detectCycle {
         int vis[] = new int[V];
         for (int i = 0; i < V; i++)
             vis[i] = 0;
+
+            //connected components
         for (int i = 0; i < V; i++) {
             for (int j = 0; j < V; j++) {
                 if (vis[i] == 0) {
