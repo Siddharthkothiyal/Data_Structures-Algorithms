@@ -75,7 +75,11 @@ public class shortestinDAG {
             }
             
         }
-
+for(int i=0 ; i< dist.length ; i++){
+    if(dist[i]== (int) 1e9){
+    dist[i] = -1;
+    }
+}
         
 return dist;
     }
