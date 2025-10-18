@@ -11,7 +11,7 @@ public class disjointSet {
      List<Integer> size;
      public disjointSet(int n) {
 
-         rank = new ArrayList<>();
+        rank = new ArrayList<>();
         parent = new ArrayList<>();
         size = new ArrayList<>();
 
