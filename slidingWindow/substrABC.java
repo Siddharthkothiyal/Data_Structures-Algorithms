@@ -1,7 +1,4 @@
 package slidingWindow;
-
-
-
 public class substrABC {
     public static int numberOfSubstrings(String s) {
 
