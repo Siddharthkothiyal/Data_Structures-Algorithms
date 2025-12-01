@@ -36,7 +36,7 @@ public class dponStocks2 {
     }
 
     public static void main(String[] args) {
-        int[] prices = { 7, 1, 5, 3, 4 , 6 };
+        int[] prices = { 1,3,2,8,4,9 };
         System.out.println(maxProfit(prices));
     }
 }
