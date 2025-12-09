@@ -4,21 +4,20 @@ public class removeDuplicates {
 
     public static int removeduplicates(int[] nums) {
 
-        int lastNumber = nums[0];
+       
 
-        int count = 0;
+        int lastNumber = 0;
 
         for (int i = 1; i < nums.length; i++) {
 
-            if (lastNumber != nums[i]) {
-                count++;
-
-                lastNumber = nums[i];
+            if (nums[lastNumber] != nums[i]) {
+                lastNumber++;  
+                nums[lastNumber] = nums[i];
             }
 
         }
 
-        return count+1;
+        return lastNumber+1;
 
     }
 
