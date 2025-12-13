@@ -1,4 +1,4 @@
-package BitManipulation.Arrays;
+package Arrays;
 
 public class checkSortedArray {
      public static boolean check(int[] nums) {

@@ -1,4 +1,4 @@
-package BitManipulation.Arrays;
+package Arrays;
 
 public class removeDuplicates {
 
