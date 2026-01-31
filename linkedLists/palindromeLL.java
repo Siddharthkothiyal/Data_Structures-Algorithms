@@ -9,7 +9,6 @@ public class palindromeLL {
 
         ListNode front = head.next;
         front.next = head;
-
         head.next = null;
 
         return newHead;

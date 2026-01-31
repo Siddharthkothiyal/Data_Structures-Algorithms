@@ -67,12 +67,11 @@ public class cheapestFlight {
                 int adjNode = iter.first;
                 int edCostWeight = iter.second;
 
-                if (edCostWeight + cost < dist[adjNode]  && stops<=k) {
+                if (edCostWeight + cost < dist[adjNode]  && stops <=  k) {
                     dist[adjNode] = edCostWeight + cost;
                     q.add(new Triplet(stops + 1, adjNode, dist[adjNode]));
                 }
             }
-
         }
 
         if (dist[dst] == (int) 1e9)

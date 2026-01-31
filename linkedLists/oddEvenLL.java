@@ -10,7 +10,6 @@ public class oddEvenLL {
         }
         System.out.println("null");
     }
-
     public static ListNode oddEvenList(ListNode head) {
 
         if (head == null || head.next == null) {
