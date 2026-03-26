@@ -16,7 +16,7 @@ public class chocolates {
             if( s[r] >= g[l]){
                 l++;
                 r++;
-                
+
             }else{
             
                 r++;

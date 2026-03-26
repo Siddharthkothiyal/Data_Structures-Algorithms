@@ -7,7 +7,6 @@ public class kokoEatingBananas {
             totHrs += Math.ceil((double) piles[i] / (double) hourly);
         }
         return totHrs;
-
     }
 
     public static int minEatingSpeed(int[] piles, int h) {
